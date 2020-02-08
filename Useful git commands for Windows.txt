@@ -1,0 +1,11 @@
+For more commands:
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+git init
+git clone
+git add
+git add *
+git commit -m "Commit message"    # Commit changes to head (but not yet to the remote repository)
+git commit -a                     # Commit any files you've added with git add, and also commit any files you've changed since then:
+git push origin master            # Send changes to the master branch of your remote repository
+git status                        # List the files you've changed and those you still need to add or commit

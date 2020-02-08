@@ -1,0 +1,23 @@
+For more commands:
+https://github.com/codepath/ios_guides/wiki/Using-Git-with-Terminal
+
+git pull
+git add . # Add your files to Git to prepare your commit
+git commit -am "Your commit message" #Commit to the Git history the files added
+git push
+
+git clone
+git status
+git log
+
+git push
+git pull
+
+:qa (exit)
+
+
+Steps: 
+1. git pull
+2. git add . 
+3. git commit -m "Write your message" 
+4. git push
