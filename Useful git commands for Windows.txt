@@ -9,3 +9,7 @@ git commit -m "Commit message"    # Commit changes to head (but not yet to the r
 git commit -a                     # Commit any files you've added with git add, and also commit any files you've changed since then:
 git push origin master            # Send changes to the master branch of your remote repository
 git status                        # List the files you've changed and those you still need to add or commit
+
+// github logout
+git config --unset-all --global user.name
+git config --unset-all --global user.email
