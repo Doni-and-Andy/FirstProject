@@ -17,13 +17,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         firebaseAnalytics = FirebaseAnalytics.getInstance(this)
 
-        // TODO: Exercise 1 -> Add a new button. Button will show a Toast message "Button clicked!"x1
         val pressButton = findViewById<Button>(R.id.pressButton)
         val text = "Button clicked!"
         val duration = Toast.LENGTH_SHORT
 
         val toast = Toast.makeText(applicationContext, text, duration)
 
+        //TODO: Remove unnecessary parenthesis
         pressButton.setOnClickListener() { toast.show() }
+
+        // TODO: Add a second button. This button (you can use the button that you just added) opens a new activity which contains Textview that shows "Second Activity"
+        // TODO: Also add a button on the second activity to go back to the first activity - you can add a TextView to the first activity ("First Activity")
+        
+
     }
 }
