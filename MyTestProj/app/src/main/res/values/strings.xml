@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyTestProj</string>
+    <string name="click_a_button">Click a button</string>
+    <string name="hello_big_world">Hello Big World!</string>
+    <string name="second_activity">Second activity</string>
+    <string name="first_activity">First Activity</string>
+    <string name="second_activity_text">Second Activity</string>
 </resources>
